@@ -1,0 +1,111 @@
+/* 
+Dark cyan: hsl(185, 75%, 39%)
+Very dark desaturated blue: hsl(229, 23%, 23%)
+Dark grayish blue: hsl(227, 10%, 46%)
+Dark gray: hsl(0, 0%, 59%)
+
+
+- Font size (name and stats): 18px
+- Family: [Kumbh Sans](https://fonts.google.com/specimen/Kumbh+Sans)
+- Weights: 400, 700
+*/
+
+
+body {
+    background-color: hsl(185, 75%, 39%);
+}
+
+#topimg {
+    position: fixed;
+    transform: translate(-100px, -450px);
+    
+}
+
+#botimg {
+    position: fixed;
+    transform: translate(1000px, 400px);
+}
+
+#card-container {
+    width: 375px;
+    height: 380px;
+    background: white;
+    position: absolute;
+    border-radius: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#top-container {
+    height: 150px;
+}
+
+#top-container > img {
+    height: 100%;
+    width: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+
+#img-container {
+    width: 100px;
+    height: 100px;
+    border: white 4px solid;
+    border-radius: 50%;
+    position: absolute;
+    top: 22%;
+    left: 36%;
+}
+
+#img-container > img {
+    width: 100px;
+    height: 100px;
+    border: white;
+    border-radius: 50%;
+}
+
+#bottom-container {
+    height: 230px;
+}
+
+#bottom-container > h3 {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+#age {
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+#bottom-container > h4 {
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+}
+
+#underline-container > h3 {
+    text-align: center;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    word-spacing: 70px;
+}
+
+#underline-container > h4 {
+    color: hsl(0, 0%, 59%);
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin-left: 40px;
+    word-spacing: 65px
+}
+
